@@ -23,12 +23,12 @@ body{
     justify-content: space-between;
     gap: 3rem;
     align-items: center; 
-    /* margin-left: 14rem; */
+    padding-left: 14rem;
     color: #FFFFFF;
 }
 .nav-bar ul li{
     list-style: none;
-    font-size: 1rem;
+    font-size: .9rem;
     cursor: pointer;
     transition: 250ms ease;
 }
@@ -55,20 +55,22 @@ body{
 }
 .float1 {
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 10%;
+    transform: scale(.8);
 }
 .float2 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 10%;
+    transform: scale(.8);
 }
 .hero-text {
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 1.5rem;
 }
 .hero-text .bold{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     color: #FFFFFF;
 }
